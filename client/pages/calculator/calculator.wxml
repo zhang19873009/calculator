@@ -1,15 +1,14 @@
 <view>
   <text class='t-title'>个税计算器最新</text>
 </view>
-<form bindsubmit="formSubmit" bindreset="formReset">
-  <view class="input">
-  <input class='t-input' name="money" type='digit' placeholder="税前薪资/月薪" maxlength="10" auto-focus/>
-</view>
-<view class="input">
-  <input class='t-input' name="dedu" type='digit' placeholder="社保、公积金等扣减项" maxlength="10" auto-focus/>
-</view>
+<form bindsubmit="formSubmit">
+  <view class="inputView">
+    <input class='t-input' name="money" type='digit' value='5000' placeholder="税前薪资/月薪" maxlength="10" auto-focus/>
+  </view>
+  <view class="inputView">
+    <input class='t-input' name="dedu" type='digit' value='0' placeholder="社保、公积金等扣减项" maxlength="10" auto-focus/>
+  </view>
   <view class="btn-area">
-    <button formType="submit">Submit</button>
-    <button formType="reset">Reset</button>
+    <button  formType="submit" class='center-btn'>计算</button>
   </view>
 </form>
