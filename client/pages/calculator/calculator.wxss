@@ -1,0 +1,18 @@
+.t-title{
+  display: block;
+  padding: 20rpx;
+  font-size: 20px;
+  color: green;
+  text-align: center;
+    
+
+}
+
+.t-input{
+   display: block;
+  margin: 20rpx;
+  height: 40xp;
+  /* border:10 rpx solid black; */
+   border:  2px solid #c5c5c5; 
+   border-radius: 5px;
+}
